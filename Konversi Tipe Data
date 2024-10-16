@@ -1,0 +1,26 @@
+void main() {
+  // Konversi dari Integer ke String
+  int sukmaAge = 21;
+  String ageAsString = sukmaAge.toString();
+  print('Umur Sukma dalam bentuk string: $ageAsString');
+
+  // Konversi dari String ke Integer
+  String sukmaScore = "100";
+  int scoreAsInt = int.parse(sukmaScore);
+  print('Skor sukma dalam bentuk integer: $scoreAsInt');
+
+  // Konversi dari Double ke Integer
+  double sukmaHeight = 175.5;
+  int heightAsInt = ferdiHeight.toInt();
+  print('Tinggi Sukma dalam bentuk integer: $heightAsInt');
+
+  // Konversi dari Boolean ke String
+  bool sukmaIsStudent = true;
+  String isStudentAsString = sukmaIsStudent.toString();
+  print('sukma seorang mahasiswa: $isStudentAsString');
+
+  // Konversi dari String ke Double
+  String sukmaWeight = "72.5";
+  double weightAsDouble = double.parse(sukmaWeight);
+  print('Berat badan sukma dalam bentuk double: $weightAsDouble');
+}
