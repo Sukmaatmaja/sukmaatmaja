@@ -1,0 +1,10 @@
+void main() {
+  dynamic SukmaData = 30;  // Memulai dengan nilai integer
+  print('Nilai awal Sukma: $sukmaData, tipe: ${sukmaData.runtimeType}');
+
+  sukmaData = "Halo, saya Sukma!";  // Mengubah menjadi string
+  print('Pesan baru Sukma: $sukmaData, tipe: ${sukmaData.runtimeType}');
+
+  sukmaData = [1, 2, 3, "empat"];  // Mengubah menjadi list
+  print('List baru Sukma: $sukmaData, tipe: ${sukmaData.runtimeType}');
+}
