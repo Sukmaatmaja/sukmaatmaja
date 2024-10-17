@@ -1,0 +1,24 @@
+void main() {
+  int a = 10;
+  int b = 5;
+
+  // Penjumlahan
+  int sum = a + b;
+  print('Hasil penjumlahan Sukma: $a + $b = $sum');
+
+  // Pengurangan
+  int difference = a - b;
+  print('Hasil pengurangan Sukma: $a - $b = $difference');
+
+  // Perkalian
+  int product = a * b;
+  print('Hasil perkalian Sukma: $a * $b = $product');
+
+  // Pembagian
+  double quotient = a / b; // Pembagian menghasilkan double
+  print('Hasil pembagian Sukma: $a / $b = $quotient');
+
+  // Sisa bagi (modulus)
+  int remainder = a % b;
+  print('Sisa bagi Sukma: $a % $b = $remainder');
+}
