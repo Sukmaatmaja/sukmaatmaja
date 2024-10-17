@@ -1,0 +1,24 @@
+void main() {
+  // Mendefinisikan nilai
+  double finalScore = 85.0;
+
+  // Menggunakan SWITCH CASE untuk menentukan kelulusan
+  String result;
+
+  switch (finalScore ~/ 10) {
+    case 10:
+    case 9:
+      result = 'Sukma Suk LULUS dengan nilai A!';
+      break;
+    case 8:
+      result = 'Sukma Suk LULUS dengan nilai B!';
+      break;
+    case 7:
+      result = 'Sukma Suk LULUS dengan nilai C!';
+      break;
+    default:
+      result = 'Sukma Suk TIDAK LULUS.';
+  }
+
+  print(result);
+}
