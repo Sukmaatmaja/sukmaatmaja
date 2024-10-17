@@ -1,0 +1,22 @@
+void main() {
+  // Membuat set dengan nama "Sukma" untuk menyimpan nama-nama
+  Set<String> SukmaNames = {'Aji', 'Budi', 'Cici', 'Aji'}; // 'Aji' akan otomatis dihapus karena set tidak mengizinkan duplikasi
+
+  // Menampilkan isi set
+  print('Nama-nama dalam set Sukma: ' + SukmaNames.toString());
+
+  // Menambahkan nama baru
+  SukmaNames.add('Doni');
+  print('Setelah menambahkan Doni: ' + SukmaNames.toString());
+
+  // Menghapus nama
+  SukmaNames.remove('Budi');
+  print('Setelah menghapus Budi: ' + SukmaNames.toString());
+
+  // Mengecek apakah nama ada dalam set
+  print('Apakah Cici ada dalam set? ' + (SukmaNames.contains('Cici') ? 'Ya' : 'Tidak'));
+  print('Apakah Aji ada dalam set? ' + (SukmaNames.contains('Aji') ? 'Ya' : 'Tidak'));
+
+  // Menampilkan jumlah nama dalam set
+  print('Jumlah nama dalam set Sukma: ' + SukmaNames.length.toString());
+}
